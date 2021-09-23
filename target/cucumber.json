@@ -1,0 +1,405 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-23T09:42:06.035Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2881000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoblaze.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Adding and buying new items",
+        "description": "",
+        "id": "buying-new-items;adding-and-buying-new-items",
+        "after": [
+          {
+            "result": {
+              "duration": 1188000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoblaze.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2589000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user navigates to the demoblaze.com page",
+            "match": {
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_navigates_to_the_demoblaze_com_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user navigates to \"Laptops\" menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptops\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_navigates_to_menu(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 708000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user select the \"Sony vaio i5\" laptop",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sony vaio i5\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_select_the_laptop(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2458000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user adds to cart the selected item",
+            "match": {
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_adds_to_cart_the_selected_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user go back to \"Home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_go_back_to_mainPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user navigates to \"Laptops\" menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptops\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_navigates_to_menu(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 501000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user select the \"Dell i7 8gb\" laptop",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dell i7 8gb\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_select_the_laptop(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2271000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user adds to cart the selected item",
+            "match": {
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_adds_to_cart_the_selected_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1038000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user go back to \"Cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cart\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_go_back_to_mainPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1739000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user delete the \"Dell i7 8gb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dell i7 8gb\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_delete_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user navigates to Place Order",
+            "match": {
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.theUserNavigatesToPlaceOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user types own \"Ali\" to the \"Name\" field in the Place Order form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Name\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_types_own_to_the_field_in_the_Place_Order_form(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user types own \"Turkey\" to the \"Country\" field in the Place Order form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Turkey\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Country\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_types_own_to_the_field_in_the_Place_Order_form(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user types own \"Istanbul\" to the \"City\" field in the Place Order form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Istanbul\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"City\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_types_own_to_the_field_in_the_Place_Order_form(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user types own \"2422123212321234\" to the \"Credit card\" field in the Place Order form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2422123212321234\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Credit card\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_types_own_to_the_field_in_the_Place_Order_form(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user types own \"June\" to the \"Month\" field in the Place Order form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"June\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Month\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_types_own_to_the_field_in_the_Place_Order_form(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user types own \"2000\" to the \"Year\" field in the Place Order form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2000\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Year\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_types_own_to_the_field_in_the_Place_Order_form(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user clicks the \"Purchase\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Purchase\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.the_user_clicks_the_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3075000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user confirms price \"790 USD\" from confirmation message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"790 USD\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.theUserConfirmsPriceFromConfirmationMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 376000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user clicks OK button and finish the process",
+            "match": {
+              "location": "com.demoblaze.step_definitions.ShoppingStepDef.theUserClicksOKButtonAndFinishTheProcess()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Buying new items",
+    "description": "",
+    "id": "buying-new-items",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/demoblaze.feature",
+    "tags": []
+  }
+]
